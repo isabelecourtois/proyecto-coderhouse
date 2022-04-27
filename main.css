@@ -23,6 +23,7 @@
             .home-nav-li-a {
                 color: #FF8AAE;
                 text-decoration: none;
+                transition: all, .8s, ease-in-out;
             }
             .home-nav-li-a:hover {
                 color: #FFB2A6;
@@ -71,6 +72,7 @@
             font-family: fantasy;
             text-decoration: none;
             color: #FF8AAE;
+            transition: all, .8s, ease-in-out;
         }
         .home-main-programas-a:hover {
             color: #FFB2A6;
@@ -174,6 +176,7 @@
             color: #FF8AAE;
             text-decoration: none;
             font-size: 20px;
+            transition: all, .8s, ease-in-out;
         }
         .footer-a:hover {
             color: #FFB2A6;
@@ -206,6 +209,7 @@
             .blog-nav-li-a {
                 color: #FF8AAE;
                 text-decoration: none;
+                transition: all, .8s, ease-in-out;
             }
             .blog-nav-li-a:hover {
                 color: #FFB2A6;
@@ -280,6 +284,7 @@
             .m05-nav-li a {
                 color: #FF8AAE;
                 text-decoration: none;
+                transition: all, .8s, ease-in-out;
             }
             .m05-nav-li a:hover {
                 color: #FFB2A6;
@@ -391,6 +396,7 @@
             .contacto-nav-li a {
                 color: #FF8AAE;
                 text-decoration: none;
+                transition: all, .8s, ease-in-out;
             }
             .contacto-nav-li a:hover {
                 color: #FFB2A6;
@@ -535,6 +541,7 @@
                 .yo-nav-li a {
                     color: #FF8AAE;
                     text-decoration: none;
+                    transition: all, .8s, ease-in-out;
                 }
                 .yo-nav-li a:hover {
                     color: #FFB2A6;
