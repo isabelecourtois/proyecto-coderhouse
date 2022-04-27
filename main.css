@@ -121,7 +121,10 @@
         border-width: 10px;
         border-color: #ffb2a691;
         border-style: solid;
-        padding: 2px;
+        padding: 2px; 
+    }
+    .home-soy img:hover {
+        transform: rotate(-10deg);
     }
     .home-soy-p{
         font-size: 17px;
