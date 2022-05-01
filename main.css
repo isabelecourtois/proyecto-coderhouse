@@ -5,6 +5,24 @@
     "homelogo homenav homenav"
     "homehero homehero homehero" ;
 }
+.alert-warning{
+    justify-content: center;
+    height: 5px;
+    width: 100%;
+    color: #a5eef3;
+    background-color: #cfe2ff60;
+    border-color: #a5eef3;
+
+}
+.alert alert-warning alert-dismissible fade show{
+    justify-content: center;
+    height: 5px;
+    width: 100%;
+    color: #a5eef3;
+    background-color: #cfe2ff60;
+    border-color: #a5eef3;
+
+}
 .home-nav {
     grid-area: homenav;
     font-size: 20px;
