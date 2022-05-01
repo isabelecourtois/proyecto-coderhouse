@@ -7,21 +7,10 @@
 }
 .alert-warning{
     justify-content: center;
-    height: 5px;
-    width: 100%;
-    color: #a5eef3;
+    align-items: center;
+    color: #239ca5;
     background-color: #cfe2ff60;
     border-color: #a5eef3;
-
-}
-.alert alert-warning alert-dismissible fade show{
-    justify-content: center;
-    height: 5px;
-    width: 100%;
-    color: #a5eef3;
-    background-color: #cfe2ff60;
-    border-color: #a5eef3;
-
 }
 .home-nav {
     grid-area: homenav;
@@ -87,6 +76,11 @@
             font-size: 50px;
         }
     }
+    .home-main container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .home-main-programas {
         border-radius: 10px;
         margin:5px;
@@ -94,7 +88,6 @@
         height: 400px;
         text-align: center;
         box-shadow: 0 0 15px 10px #808080b4;
-        display: inline-block;
         }
         .home-main-programas p{
             font-family: "comfortaa";
@@ -261,6 +254,7 @@
     grid-area: blogh1;
     text-align: center;
     font-size: 100px;
+    font-weight: bold;
     color: #FF8AAE;
     background-image: url("assets/fondo-blog.png");
     background-repeat: repeat;
@@ -270,12 +264,25 @@
     text-align: center;
     color: gray;
     font-size: 30px;
+    font-weight: bold;
+}
+.blog-main h3{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.blog-main h4{
+    color: gray;
+    font-size: 20px;
 }
 .blog-main-p{
-    text-align: center;
     color:gray;
     font-size: 18px;
     line-height: 2;
+}
+.blog-main-cuna-img{
+    width: 100%;
+    height: auto;
 }
 /* Fin de estilos Blog */
 
@@ -331,18 +338,18 @@
     color: grey;
     margin-top: 50px;
 }
-    .m05-main-cap{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .m05-main-cap h2 {
+    .m05-main h2 {
         color: #FF8AAE;
         text-align: center;
         border-right: solid;
         width: 200px;
     }
-    .m05-main-cap p{
+    .m05-main h3 {
+        color: gray;
+        text-align: center;
+        width: 200px;
+    }
+    .m05-main p{
         font-size: 17px;
         font-family: "comfortaa";
         color: gray;
@@ -451,17 +458,22 @@
         font-family: comfortaa;
         font-size: 30px;
         text-align: center;
+        padding-bottom: 10px;
     }
-    .contacto-main-p{
+    .contacto-main p{
         grid-area: p;
+        color: gray;
+        font-family: comfortaa;
+        font-size: 18px;
+        line-height: 2;
+        text-align: center;
+    }
+    .contacto-main h2{
         color: gray;
         font-family: comfortaa;
         font-size: 20px;
         line-height: 2;
         text-align: center;
-    }
-    .contacto-main-p p{
-        font-size: 18px;
 
     }
     .contacto-form{
@@ -474,7 +486,7 @@
     .contacto-form-input{
         font-size: 18px;
         height: 40px;
-        width: 200px;
+        width: 400px;
         border-style: none;
         border-radius: 6px;
         line-height: 40px;
